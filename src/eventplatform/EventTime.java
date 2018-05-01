@@ -35,7 +35,7 @@ public class EventTime {
     }
     
     public Calendar getCalendar(){
-        return time;
+        return (Calendar) time.clone();
     }
     
     public void setDay(int newDayOfMonth){

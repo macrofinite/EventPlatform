@@ -19,4 +19,20 @@ public abstract class Person {
         this.lastName = lastName;
         this.personID = personID;
     }
+    
+    public String getFirstName(){
+        return firstName;
+    }
+    
+    public String getLastName(){
+        return lastName;
+    }
+    
+    public String getName(){
+        return lastName + ", " + firstName;
+    }
+    
+    public int getPersonID(){
+        return personID;
+    }
 }
